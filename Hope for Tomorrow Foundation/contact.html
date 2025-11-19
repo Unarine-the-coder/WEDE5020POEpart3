@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hope for Tomorrow Foundation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <img src="images/logo.png" alt="Website Logo" width="100" height="50">
+            <a href="index.html" class="logo">Hope for Tomorrow Foundation</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Our Services</a></li>
+                <li><a href="volunteer.html" class="nav-link">Volunteer</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch to learn more about our programs and partnerships</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="section">
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> info@hopefortomorrow.org</p>
+                        <p><strong>Phone:</strong> +27 11 123 4567</p>
+                        <p><strong>Address:</strong> 123 Hope Street, Johannesburg, South Africa</p>
+                        <p><strong>Office Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Department Contacts</h3>
+                    <div class="contact-info">
+                        <p><strong>General Inquiries:</strong> info@hopefortomorrow.org</p>
+                        <p><strong>Volunteer Program:</strong> volunteer@hopefortomorrow.org</p>
+                        <p><strong>Donations & Sponsors:</strong> donations@hopefortomorrow.org</p>
+                        <p><strong>Program Information:</strong> programs@hopefortomorrow.org</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="section">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.189031106511!2d28.034215315029268!3d-26.193922983443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1c1c0b2c1b%3A0x2d1c3d1c1c1c1c1c!2sJohannesburg%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1641234567890!5m2!1sen!2sza" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address:</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" class="form-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject:</label>
+                    <select id="subject" name="subject" class="form-select" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="volunteer">Volunteer Opportunity</option>
+                        <option value="donation">Donation Information</option>
+                        <option value="partnership">Partnership Opportunity</option>
+                        <option value="program">Program Information</option>
+                        <option value="media">Media Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Please provide details about your inquiry..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">
+                        <input type="checkbox" name="newsletter"> 
+                        Subscribe to our newsletter for updates and success stories
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Emergency Contact -->
+        <section class="section text-center">
+            <div class="card">
+                <h3>Urgent Matters</h3>
+                <p>For urgent matters outside office hours, please contact:</p>
+                <p><strong>Emergency Line:</strong> +27 11 123 4568</p>
+                <p><strong>Available:</strong> 24/7 for urgent program-related issues</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Visit Our Office</h3>
+                    <p>123 Hope Street</p>
+                    <p>Johannesburg, 2000</p>
+                    <p>South Africa</p>
+                    <p>Office Hours: 8:00 AM - 5:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal & Compliance</h3>
+                    <ul class="footer-links">
+                        <li>Section 18A Registered</li>
+                        <li>B-BBEE Compliant</li>
+                        <li>NPO Registration: 123-456</li>
+                        <li>POPIA Compliant</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hope for Tomorrow Foundation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer - Hope for Tomorrow Foundation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <img src="images/logo.png" alt="Website Logo" width="100" height="50">
+            <a href="index.html" class="logo">Hope for Tomorrow Foundation</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Our Services</a></li>
+                <li><a href="volunteer.html" class="nav-link active">Volunteer</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Join Our Volunteer Team</h1>
+                    <p>Make a difference in children's lives through education</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Intro -->
+        <section class="section">
+            <h2>Get Involved</h2>
+            <img src="images/Volunteer.jpg" alt="Volunteer Opportunities" class="responsive-image" height="80">
+            <p class="mt-2">
+                You can make a difference by joining us as a volunteer or becoming a sponsor. 
+                Explore the opportunities below and complete the form to get started.
+            </p>
+        </section>
+
+        <!-- Opportunities Grid -->
+        <section class="section">
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Volunteer Opportunities</h3>
+                    <p>Join our team of dedicated volunteers and make a direct impact:</p>
+                    <ul>
+                        <li><strong>Tutor children and youth</strong> - Help with homework and subject tutoring</li>
+                        <li><strong>Digital literacy instruction</strong> - Teach basic computer skills</li>
+                        <li><strong>Event coordination</strong> - Assist in organizing educational events</li>
+                        <li><strong>Mentorship programs</strong> - Guide students in career planning</li>
+                        <li><strong>Fundraising activities</strong> - Support our financial sustainability</li>
+                        <li><strong>Administrative support</strong> - Help with office tasks and coordination</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Sponsor Opportunities</h3>
+                    <p>Support our mission through corporate or individual sponsorship:</p>
+                    <ul>
+                        <li><strong>Educational scholarships</strong> - Fund school fees for deserving students</li>
+                        <li><strong>Technology infrastructure</strong> - Support digital literacy programs</li>
+                        <li><strong>Learning materials</strong> - Provide books and educational resources</li>
+                        <li><strong>Program sponsorship</strong> - Adopt a specific program or school</li>
+                        <li><strong>B-BBEE partnerships</strong> - Align with corporate social responsibility goals</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="section">
+            <h2>Volunteer Benefits</h2>
+            <div class="grid-container">
+                <div class="card text-center">
+                    <h4>Community Impact</h4>
+                    <p>Directly contribute to educational transformation in underserved communities</p>
+                </div>
+                <div class="card text-center">
+                    <h4>Skill Development</h4>
+                    <p>Gain valuable experience in teaching, mentoring, and community work</p>
+                </div>
+                <div class="card text-center">
+                    <h4>Networking</h4>
+                    <p>Connect with like-minded individuals and professionals</p>
+                </div>
+                <div class="card text-center">
+                    <h4>Recognition</h4>
+                    <p>Receive certificates and references for your contributions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Form -->
+        <section class="section">
+            <h2>Join Our Team</h2>
+            <p>Complete the form below to start your journey with us:</p>
+            
+            <form action="#" method="post" class="mt-2">
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address:</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role" class="form-label">I want to:</label>
+                    <select id="role" name="role" class="form-select" required>
+                        <option value="">Select an option</option>
+                        <option value="volunteer">Be a Volunteer</option>
+                        <option value="sponsor">Become a Sponsor</option>
+                        <option value="both">Both Volunteer and Sponsor</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="skills" class="form-label">Skills & Experience:</label>
+                    <select id="skills" name="skills" class="form-select" multiple>
+                        <option value="tutoring">Tutoring/Teaching</option>
+                        <option value="mentoring">Mentoring</option>
+                        <option value="tech">Technology Skills</option>
+                        <option value="events">Event Planning</option>
+                        <option value="fundraising">Fundraising</option>
+                        <option value="admin">Administrative</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <small>Hold Ctrl/Cmd to select multiple options</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="availability" class="form-label">Availability:</label>
+                    <select id="availability" name="availability" class="form-select" required>
+                        <option value="">Select availability</option>
+                        <option value="weekdays">Weekdays</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="evenings">Evenings</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message / Areas of Interest:</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your interests and how you'd like to contribute..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">
+                        <input type="checkbox" name="terms" required> 
+                        I agree to the terms and conditions and privacy policy
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: volunteer@hopefortomorrow.org</p>
+                    <p>Phone: +27 11 123 4567</p>
+                    <p>Volunteer Coordinator: Naledi Khumalo</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Programs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Volunteer Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Orientation Guide</a></li>
+                        <li><a href="#">Training Materials</a></li>
+                        <li><a href="#">Event Calendar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <p>Section 18A Compliant</p>
+                    <p>B-BBEE Alignment</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hope for Tomorrow Foundation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    // Image Gallery for Homepage
+    document.addEventListener('DOMContentLoaded', function() {
+        const volunteer = document.querySelectorAll('img[src*="volunteer"]');
+        
+        volunteer.forEach(img => {
+            img.style.cursor = 'pointer';
+            img.addEventListener('click', function() {
+                // Create lightbox
+                const lightbox = document.createElement('div');
+                lightbox.style.cssText = `
+                    position: fixed; top: 0; left: 0; 
+                    width: 100%; height: 100%; 
+                    background: rgba(0,0,0,0.9); 
+                    display: flex; justify-content: center; 
+                    align-items: center; z-index: 1000; 
+                    cursor: pointer;
+                `;
+                
+                // Create enlarged image
+                const enlargedImg = document.createElement('img');
+                enlargedImg.src = this.src;
+                enlargedImg.alt = this.alt;
+                enlargedImg.style.cssText = `
+                    max-width: 90%; max-height: 90%;
+                    border: 3px solid white; border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+                `;
+                
+                // Close on click
+                lightbox.addEventListener('click', function() {
+                    document.body.removeChild(lightbox);
+                });
+                
+                lightbox.appendChild(enlargedImg);
+                document.body.appendChild(lightbox);
+            });
+        });
+    });
+    </script>
+</body>
+</html>
