@@ -42,8 +42,8 @@
 
 - Performance optimization with lazy loading
 
-# Student Information:
-# Name: [UNARINE MAMPHODO]
-# Student Number: [ST10480361]
-# Institution: [ROSEBANK COLLEGE PTA CAMPUS]
-# Date: [11/19/2025]
+## Student Information:
+Name: [UNARINE MAMPHODO]
+Student Number: [ST10480361]
+Institution: [ROSEBANK COLLEGE PTA CAMPUS]
+Date: [11/19/2025]
